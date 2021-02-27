@@ -1,6 +1,6 @@
 {% set name = "sphinx-notfound-page" %}
-{% set version = "0.5" %}
-{% set hash = "0ff34a26140ede859dc9bcc216107a5e27dcd0076a1b1defaa31f61fb67b489c" %}
+{% set version = "0.6" %}
+{% set hash = "5686892db509020d235069dd8a6c7e8bf6fcff43695046b945fe82925cb6c40c" %}
 
 
 package:
@@ -14,7 +14,7 @@ source:
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -29,11 +29,11 @@ test:
     - notfound
     - notfound.extension
 
-about: 
-  home: https://github.com/readthedocs/sphinx-notfound-page 
+about:
+  home: https://github.com/readthedocs/sphinx-notfound-page
   license: MIT
   license_file: LICENSE
-  summary: 'Create a custom 404 page with absolute URLs hardcoded'
+  summary: Create a custom 404 page with absolute URLs hardcoded
   doc_url: https://sphinx-notfound-page.readthedocs.io
   dev_url: https://github.com/readthedocs/sphinx-notfound-page
 
