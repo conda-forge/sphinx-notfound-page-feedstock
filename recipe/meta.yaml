@@ -23,6 +23,7 @@ requirements:
   run:
     - python >=3
     - sphinx
+    - docutils
 
 test:
   imports:
