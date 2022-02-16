@@ -1,6 +1,6 @@
 {% set name = "sphinx-notfound-page" %}
-{% set version = "0.7.1" %}
-{% set hash = "01888b45b29a6f81785576bd64ab62015900496b130f7326b4d557bb5ff07787" %}
+{% set version = "0.8" %}
+{% set hash = "39bf5b99e1fbf6164631ecac2b58038f08e0ab9278c563076aadd1cf04b6bb7a" %}
 
 
 package:
