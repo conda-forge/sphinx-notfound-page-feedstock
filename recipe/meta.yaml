@@ -17,11 +17,10 @@ build:
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
-  build:
-    - flit-core >=3.2,<4
   host:
     - python >=3
     - pip
+    - flit-core >=3.2,<4
   run:
     - python >=3
     - sphinx
