@@ -1,11 +1,11 @@
-About sphinx-notfound-page
-==========================
+About sphinx-notfound-page-feedstock
+====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinx-notfound-page-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/readthedocs/sphinx-notfound-page
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinx-notfound-page-feedstock/blob/main/LICENSE.txt)
 
 Summary: Create a custom 404 page with absolute URLs hardcoded
 
