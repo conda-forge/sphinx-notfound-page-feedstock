@@ -2,7 +2,6 @@
 {% set version = "1.0.2" %}
 {% set hash = "7b2759ca79cbaa44422325f540b91542b1ce411cd31217c20cd6ba1e6cffb5ec" %}
 
-
 package:
   name: {{ name|lower }}
   version: {{ version }}
