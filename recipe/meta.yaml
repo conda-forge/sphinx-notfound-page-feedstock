@@ -7,25 +7,27 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ hash }}
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3
+    - python {{ python_min }}
     - pip
     - flit-core >=3.2,<4
   run:
-    - python >=3
+    - python >={{ python_min }}
     - sphinx
     - docutils
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - notfound
     - notfound.extension
